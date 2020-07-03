@@ -9,11 +9,6 @@
 				<span class="archive-type">{{t "Author"}}</span>
 				<span class="archive-count">{{plural ../pagination.total empty=(t "No Posts") singular=(t "% Post") plural=(t "% Posts")}}</span>
 			</span>
-			<figure class="archive-avatar avatar">
-				{{#if profile_image}}
-					<img src="{{profile_image}}" alt="{{name}}" />
-				{{/if}}
-			</figure>
 			<h2 class="archive-title">{{name}}</h2>
 			{{#if bio}}
 				<span class="archive-description">{{{bio}}}</span>
