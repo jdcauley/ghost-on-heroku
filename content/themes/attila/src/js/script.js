@@ -7,7 +7,7 @@
      ========================================================================== */
 
   function menu() {
-    html.toggle('menu-active');
+    html.classList.toggle('menu-active');
   };
 
   var navMenuEls = document.querySelectorAll('.nav-menu, .nav-close, #menu')
